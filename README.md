@@ -1,4 +1,9 @@
+# PolarQuant: Leveraging Polar Transformation for Key Cache Quantization and Decoding Acceleration 
+
+Code for NeurIPS 2025 paper " Leveraging Polar Transformation for Key Cache Quantization and Decoding Acceleration".
+
 # ReRun LongBench & GSM8k
+
 ## Environment Setup
 
 We reccommend rerunning the code on NVIDIA A100 or A800 GPUs. 
@@ -78,6 +83,19 @@ For example, to run a latency test on matrix multiplication implementations:
 
 ```bash
 CUDA_VISIBLE_DEVICES=0 python benchmark_matmul.py
+```
+
+# Reference
+If you find this code useful for your research, please cite our paper:
+```
+@inproceedings{
+    wu2025polarquant,
+    title={PolarQuant: Leveraging Polar Transformation for Key Cache Quantization and Decoding Acceleration},
+    author={Songhao Wu and Ang Lv and xiao feng and Yufei zhang and Xun Zhang and Guojun Yin and Wei Lin and Rui Yan},
+    booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+    year={2025},
+    url={https://openreview.net/forum?id=JCTTLKEBza}
+}
 ```
 
 
