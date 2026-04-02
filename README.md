@@ -37,7 +37,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 torchrun --nproc_per_node=8 --master_port=6
 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 torchrun --nproc_per_node=8 --master_port=8888 test4gsm8k.py
 ```
 
-# ReRun Reasonging Models
+# ReRun Reasoning Models
 
 We use lighteval to rerun the reproduction of DeepSeek-R1. 
 
